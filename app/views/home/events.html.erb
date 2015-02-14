@@ -1,0 +1,86 @@
+<div class="event_page">
+
+  <h1> Events </h1>
+
+  <% @events.each do |event| %>
+     <h2><%= event.title  %></h2>
+     <p><%= event.author  %></p>
+     <p><%= event.location  %></p>
+     <p><%= event.date.strftime('%m/%d/%Y') %></p>
+  <% end %>
+
+</div>
+
+
+
+
+
+  <!--
+  Imagine you are looking at your friend list in facebook.
+  This is your friend list
+
+  Friends = [ Name: Kamilah
+    City: Cleveland, OH
+
+    Name: Joaquin
+    City: Madrid, Spain
+
+    Name: Omar
+    City: Miami, FL
+
+    Name: Janice
+    City: Seattle, WA
+  ]
+
+
+  If you wanted the first friend on the list you would say:
+
+  Friends.first
+    => [ Name: Kamilah
+         Location: Cleveland, OH]
+
+  What if you wanted information about all of your friends? You would use an EACH LOOP.
+
+  Friends.each do |friend|
+    puts friend.name
+  end
+
+  This would give you:
+
+   [Kamilah, Joaquin, Omar, Janice]
+
+   How would you get the cities for all of your friends?
+  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!--  -->
